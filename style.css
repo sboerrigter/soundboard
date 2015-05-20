@@ -23,8 +23,12 @@ p {
 h1 {
 	font-size: 22px;
 	font-weight: bold;
-	margin: 10px;
+	margin: 10px 10px 20px 10px;
 }
+
+/**
+ * @section Buttons
+ */
 
 button {
 	background: #00BFFF;
@@ -38,17 +42,56 @@ button {
 	font-size: 14px;
 	font-weight: bold;
 	line-height: 20px;
-	margin: 10px;
 	outline: none;
 	padding: 15px 20px;
 	text-align: left;
 	text-transform: uppercase;
-	width: 260px;
+	width: 280px;
 }
 
 button:active {
 	box-shadow: 0 2px 0 #008FBF;
-	margin: 12px 10px 8px 10px;
+	margin-top: 2px;
+}
+
+button.green { 
+	background: #3EB348;
+	box-shadow: 0 4px 0 #28732E;
+}
+button.green:active {
+	box-shadow: 0 2px 0 #28732E;
+}
+
+button.yellow { 
+	background: #FFBB33;
+	box-shadow: 0 4px 0 #BF8C26;
+}
+button.yellow:active {
+	box-shadow: 0 2px 0 #BF8C26;
+}
+
+button.red { 
+	background: #FF4000;
+	box-shadow: 0 4px 0 #BF3000;
+}
+button.red:active {
+	box-shadow: 0 2px 0 #BF3000;
+}
+
+button.pink { 
+	background: #FF3399;
+	box-shadow: 0 4px 0 #BF2673;
+}
+button.pink:active {
+	box-shadow: 0 2px 0 #BF2673;
+}
+
+button.purple { 
+	background: #BF00FF;
+	box-shadow: 0 4px 0 #8F00BF;
+}
+button.purple:active {
+	box-shadow: 0 2px 0 #8F00BF;
 }
 
 /**
@@ -58,4 +101,16 @@ button:active {
 body {
 	background: #2E384D;
 	padding: 10px;
+}
+
+.sound {
+	float: left;
+	height: 55px;
+	margin: 10px;
+}
+
+.credits { 
+	clear: both;
+	float: left;
+	margin: 20px 10px;
 }
