@@ -3,29 +3,37 @@
 
 	<head>
 		<meta charset="utf-8">
-		<title>title</title>
-		<link rel="stylesheet" href="./style.css">
-		<script src="functions.js"></script>
+		<title>Soundboard</title>
+		<link rel="stylesheet" href="style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src="script.js"></script>
 	</head>
 
 	<body>
+
 		<h1>My awesome soundboard</h1>
 
-		<div class="sound">
+		<div class="sound" id="badum-tss">
 			<button class="blue">Badum Tss</button>
+			<audio src="sounds/badum-tss.mp3"></audio>
 		</div>
-		
-		<div class="sound">
+
+		<div class="sound" id="sad-trombone">
 			<button class="blue">Sad Trombone</button>
+			<audio src="sounds/sad-trombone.mp3"></audio>
 		</div>
 
-		<div class="sound">
+		<div class="sound" id="dancehall-horn">
 			<button class="blue">Dancehall Horn</button>
+			<audio src="sounds/dancehall-horn.mp3"></audio>
 		</div>
 
-		<div class="sound">
+		<div class="sound" id="best-cry-ever">
 			<button class="blue">Best Cry Ever</button>
+			<audio src="sounds/best-cry-ever.mp3"></audio>
 		</div>
+
+		<p>Buildt by Trendwerk. Just for fun :-)</p>
 
 	</body>
 
