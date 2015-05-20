@@ -1,0 +1,126 @@
+/**
+ * @section Reset
+ */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/**
+ * @section Typography
+ */
+
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700);
+
+body,
+p {
+	color: #fff;
+	font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 25px;
+}
+
+h1 , h2, h3{
+	font-size: 22px;
+	font-weight: bold;
+	margin: 10px 10px 20px 10px;
+}
+
+a {
+	color: #fff;
+}
+
+/**
+ * @section Buttons
+ */
+
+button {
+	background: #00BFFF;
+	border: none;
+	border-radius: 3px;
+	box-shadow: 0 4px 0 #008FBF;
+	color: #FFF;
+	cursor: pointer;
+	display: block;
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 20px;
+	outline: none;
+	padding: 15px 20px;
+	text-align: left;
+	text-transform: uppercase;
+	width: 280px;
+}
+
+button:active,
+button:focus {
+	box-shadow: 0 2px 0 #008FBF;
+	margin-top: 2px;
+}
+
+button.green { 
+	background: #3EB348;
+	box-shadow: 0 4px 0 #28732E;
+}
+button.green:active,
+button.green:focus {
+	box-shadow: 0 2px 0 #28732E;
+}
+
+button.yellow { 
+	background: #FFBB33;
+	box-shadow: 0 4px 0 #BF8C26;
+}
+button.yellow:active,
+button.yellow:focus {
+	box-shadow: 0 2px 0 #BF8C26;
+}
+
+button.red { 
+	background: #FF4000;
+	box-shadow: 0 4px 0 #BF3000;
+}
+button.red:active,
+button.red:focus {
+	box-shadow: 0 2px 0 #BF3000;
+}
+
+button.pink { 
+	background: #FF3399;
+	box-shadow: 0 4px 0 #BF2673;
+}
+button.pink:active,
+button.pink:focus {
+	box-shadow: 0 2px 0 #BF2673;
+}
+
+button.purple { 
+	background: #BF00FF;
+	box-shadow: 0 4px 0 #8F00BF;
+}
+button.purple:active,
+button.purple:focus {
+	box-shadow: 0 2px 0 #8F00BF;
+}
+
+/**
+ * @section Layout
+ */
+
+body {
+	background: #2E384D;
+	padding: 10px;
+}
+
+.sound {
+	float: left;
+	height: 55px;
+	margin: 10px;
+}
+
+.credits { 
+	clear: both;
+	float: left;
+	margin: 20px 10px;
+}
