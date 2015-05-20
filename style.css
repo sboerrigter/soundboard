@@ -44,51 +44,34 @@ button {
   text-align: left;
   text-transform: uppercase;
   width: 280px; }
-
-button:active,
-button:focus {
-  box-shadow: 0 2px 0 #008FBF;
-  margin-top: 2px; }
-
-button.green {
-  background: #3EB348;
-  box-shadow: 0 4px 0 #28732E; }
-
-button.green:active,
-button.green:focus {
-  box-shadow: 0 2px 0 #28732E; }
-
-button.yellow {
-  background: #FFBB33;
-  box-shadow: 0 4px 0 #BF8C26; }
-
-button.yellow:active,
-button.yellow:focus {
-  box-shadow: 0 2px 0 #BF8C26; }
-
-button.red {
-  background: #FF4000;
-  box-shadow: 0 4px 0 #BF3000; }
-
-button.red:active,
-button.red:focus {
-  box-shadow: 0 2px 0 #BF3000; }
-
-button.pink {
-  background: #FF3399;
-  box-shadow: 0 4px 0 #BF2673; }
-
-button.pink:active,
-button.pink:focus {
-  box-shadow: 0 2px 0 #BF2673; }
-
-button.purple {
-  background: #BF00FF;
-  box-shadow: 0 4px 0 #8F00BF; }
-
-button.purple:active,
-button.purple:focus {
-  box-shadow: 0 2px 0 #8F00BF; }
+  button:active {
+    box-shadow: 0 2px 0 #008FBF;
+    margin-top: 2px; }
+  button.green {
+    background: #3EB348;
+    box-shadow: 0 4px 0 #28732E; }
+    button.green:active {
+      box-shadow: 0 2px 0 #28732E; }
+  button.yellow {
+    background: #FFBB33;
+    box-shadow: 0 4px 0 #BF8C26; }
+    button.yellow:active {
+      box-shadow: 0 2px 0 #BF8C26; }
+  button.red {
+    background: #FF4000;
+    box-shadow: 0 4px 0 #BF3000; }
+    button.red:active {
+      box-shadow: 0 2px 0 #BF3000; }
+  button.pink {
+    background: #FF3399;
+    box-shadow: 0 4px 0 #BF2673; }
+    button.pink:active {
+      box-shadow: 0 2px 0 #BF2673; }
+  button.purple {
+    background: #BF00FF;
+    box-shadow: 0 4px 0 #8F00BF; }
+    button.purple:active {
+      box-shadow: 0 2px 0 #8F00BF; }
 
 /**
  * @section Layout
