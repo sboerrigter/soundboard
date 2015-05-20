@@ -1,0 +1,58 @@
+/**
+ * @section Reset
+ */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/**
+ * @section Typography
+ */
+
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700);
+
+body {
+	color: #fff;
+	font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	padding: 10px;
+}
+
+h1 {
+	font-size: 22px;
+	font-weight: bold;
+	margin: 10px;
+}
+
+button {
+	background: #00BFFF;
+	border: none;
+	border-radius: 3px;
+	box-shadow: 0 4px 0 #008FBF;
+	color: #FFF;
+	cursor: pointer;
+	display: block;
+	float: left;
+	font-weight: bold;
+	line-height: 20px;
+	margin: 10px;
+	outline: none;
+	padding: 15px 20px;
+	text-align: left;
+	text-transform: uppercase;
+	width: 260px;
+}
+
+button:active {
+	box-shadow: 0 2px 0 #008FBF;
+	margin: 12px 10px 8px 10px;
+}
+
+/**
+ * @section Layout
+ */
+
+body {
+	background: #2E384D;
+}
