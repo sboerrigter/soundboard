@@ -14,13 +14,14 @@
 
 body,
 p {
+	-webkit-font-smoothing: antialiased;
 	color: #fff;
 	font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	line-height: 25px;
 }
 
-h1 , h2, h3{
+h1 {
 	font-size: 22px;
 	font-weight: bold;
 	margin: 10px 10px 20px 10px;
