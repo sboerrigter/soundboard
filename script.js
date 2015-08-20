@@ -67,5 +67,13 @@ $(document).ready(function(){
 			audio.currentTime = 0;
 		}
 	});
+	$('#cashcow button').click(function(){
+		var audio = $('#cashcow').find('audio').get(0);
+		if (audio.paused) {
+			audio.play();
+		}else{
+			audio.currentTime = 0;
+		}
+	});
 
 });
